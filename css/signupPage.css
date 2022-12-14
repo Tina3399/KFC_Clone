@@ -1,0 +1,36 @@
+
+#signup_div{
+    width: 30vw;
+    
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family:  "Helvetica Neue", sans-serif;
+}
+
+#signup_form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type=checkbox]{
+    margin-right: 5px;
+    width: 20px;
+    
+}

@@ -1,0 +1,59 @@
+[
+  
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-2DTCombo?q=75",
+        "name": "2 pc. Drum & Thigh Combo",
+        "calories": "600-1310",
+        "price": 499,
+        "id": "1"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-2BWCombo?q=75",
+        "name": "2 pc. Chicken Combo- Breasts and Wing",
+        "calories": "530-1390",
+        "price": 599,
+        "id": "2"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-3pcCombo2B1W?q=75",
+        "name": "3 pc. Chicken Combo- Breasts, Thigh and Wing",
+        "calories": "680-1720",
+        "price": 799,
+        "id": "3"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-3pcBox2B1W?q=75",
+        "name": "3 pc. Chicken Combo-2 Breasts, 1 Wing",
+        "calories": "810-2150",
+        "price": 799,
+        "id": "4"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-3pcBox2T1D?q=75",
+        "name": "3 pc. Chicken Box-2 Thigh, 1 Drum",
+        "calories": "700-1750",
+        "price": 899,
+        "id": "5"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-3pcCombo2B1W?q=75",
+        "name": "3 pc. Chicken Combo-2 Breasts, 1 Wing",
+        "calories": "740-1920",
+        "price": 799,
+        "id": "6"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-3pcCombo2T1D?q=75",
+        "name": "3 pc. Chicken Combo-2 Thigh, 1 Drum",
+        "calories": "630-1520",
+        "price": 899,
+        "id": "7"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-4pcCombo?q=75",
+        "name": "4 pc. Chicken Combo",
+        "calories": "760-1890",
+        "price": 799,
+        "id": "8"
+    }
+  ]

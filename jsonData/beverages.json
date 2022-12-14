@@ -1,0 +1,66 @@
+[
+  
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-Pepsi?q=75",
+        "name": "Pepsi",
+        "calories": "250-380",
+        "price": 299,
+        "id": "1"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-Pepsi?q=75",
+        "name": "Diet Pepsi",
+        "calories": "0",
+        "price": 599,
+        "id": "2"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-mtndew?q=75",
+        "name": "Mountain Dew",
+        "calories": "270-410",
+        "price": 299,
+        "id": "3"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-mtndewsweetlightning?q=75",
+        "name": "Mountain Dew Sweet Lightning",
+        "calories": "160-230",
+        "price": 299,
+        "id": "4"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-sierramist?q=75",
+        "name": "Sierra Mist",
+        "calories": "260-380",
+        "price": 299,
+        "id": "5"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-LemMed?q=75",
+        "name": "Colonel Lemonade",
+        "calories": "140-210",
+        "price": 299,
+        "id": "6"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-drPepper?q=75",
+        "name": "Dr. Pepper",
+        "calories": "240-360",
+        "price": 299,
+        "id": "7"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-sweetTea?q=75",
+        "name": "Sweet Tea",
+        "calories": "280-430",
+        "price": 299,
+        "id": "8"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-BevBucket?q=75",
+        "name": "1/2 Gallon Beverage",
+        "calories": "0-910",
+        "price": 599,
+        "id": "9"
+    }
+  ]

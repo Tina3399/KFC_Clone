@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#webName a{
+    text-decoration: none;
+    color:#354050 ;
+}
+nav{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.10) 0px 3px 6px;
+    height: 70px;
+    text-align: center;
+}
+nav>h2{
+    font-family:brush script mt,cursive;
+    
+    text-decoration: none;
+    color: #354050;
+    font-size: 45px;
+    /* margin-top: 10px; */
+}
+
+/* login div */
+
+#login_div{
+    width: 40vw;
+    
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family:  "Helvetica Neue", sans-serif;
+}
+
+#sub_div{
+    padding: 70px 50px;
+
+}
+#red_lines{
+    display: flex;
+    gap: 5px;
+    margin-left: 50px;
+}
+.bar{
+    width: 10px;
+    background-color: #d73333;
+    /* border: 1px solid violet; */
+    height: 25px;
+    
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+form input[type=text],input[type=password]{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    border: 0;
+    outline: none;
+    width: 90%;
+    font-size: 15px;
+}
+#small_font{
+    font-size: 14px;
+}
+form p,label{
+    font-size: 20px;
+}
+
+span{
+    color: red;
+}
+
+form input[type=submit]{
+    background-color: #dbdbdb;
+    border-radius: 100px;
+    
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 25px;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+}

@@ -1,0 +1,117 @@
+/* side menu bar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#menu_page_main_div{
+    margin-top: 120px;
+    /* border: 1px solid red; */
+    width: 88vw;
+    height: auto;
+    margin-left: 10%;
+}
+#menu_page_main_div>div{
+    display: flex;
+    justify-content:space-between;
+    /* border: 2px solid green; */
+    position: relative;
+}
+
+#menu_page_main_div a{
+    text-decoration: none;
+    color: black;
+}
+#menu_page_main_div a:hover{
+    text-decoration:underline;
+    
+}
+#side_menu_bar_outer_div{
+    flex: 1;
+    
+}
+
+
+#side_menu_bar>div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+    
+    position: fixed;
+    
+
+}
+#menu_bar_red_lines{
+    width: 25%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    /* margin: auto; */
+    
+}
+
+#menu_bar_red_lines>span{
+   width: 25%;
+   
+    background-color: #e02525;
+   /* border: 1px solid black; */
+}
+
+/* menu page featured items */
+
+#menu_page_items{
+    /* border: 2px solid blue; */
+    margin-top: 90px;
+    /* margin-left: 20%; */
+    flex: 3;
+}
+
+
+/* featured_items_ */
+
+
+.food_cards>h1{
+    font-family: Haettenschweiler, 'Arial Narrow Regular', sans-serif;
+    font-size:3rem;
+    letter-spacing: 3px;
+    font-weight:lighter;
+    
+
+}
+.featured_cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    margin: 70px 0;
+    /* padding: 8% 0; */
+    /* justify-content: center; */
+    /* border: 2px solid palevioletred; */
+
+}
+
+#main_card{
+    cursor: pointer;
+}
+
+#main_card:hover img{
+    transform: scale(0.9);
+}
+.featured_cards>div{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 15px;
+}
+
+.featured_cards img{
+    width: 250px;
+    background-color: #f8f7f5;
+    transition: 0.5s all ease-in-out;
+
+}
+.featured_cards p{
+    font-size: 14px;
+    font-family: "Helvetica Neue", sans-serif;
+}

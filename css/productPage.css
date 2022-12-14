@@ -1,0 +1,110 @@
+#main_div{
+    width: 80vw;
+    font-family: Helvetica, sans-serif;
+}
+
+#main_product_div{
+    margin-top: 150px;
+    width: 90%;
+}
+#main_product_div>div{
+    display: flex;
+    /* border: 2px solid yellow; */
+    margin: auto;
+    margin-left: 10%;
+    
+
+}
+
+#product_image_div{
+    width: 600px;
+}
+
+#main_product{
+    flex: 2;
+    /* border: 2px solid palevioletred; */
+   
+}
+
+
+
+#main_product img{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+#product_name{
+    font-family: fantasy;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    
+}
+/* floating div */
+
+#floating_div{
+   
+    flex: 1;
+    /* border: 2px solid palevioletred; */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 25px;
+    
+    
+    
+  
+}
+
+#red_lines_floating_div{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+
+}
+.floating_bar{
+    width: 10px;
+    background-color: #d73333;
+    /* border: 1px solid violet; */
+    height: 25px;
+    
+}
+
+
+
+#add_to_cart_button{
+    background-color: #f10933;
+    border-radius: 100px;
+    width: 90%;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#name_qty_button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+align-items: center;}
+
+#name_qty_button>h3{
+    font-family: fantasy;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: 100;
+    color: #d73333;
+}
+
+#name_qty_button i{
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}

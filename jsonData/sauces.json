@@ -1,0 +1,59 @@
+[
+  
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-BuffaloRanch?q=75",
+        "name": "Buffalo Ranch",
+        "calories": "120",
+        "price": 69,
+        "id": "1"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-KFCSauce?q=75",
+        "name": "KDK Sauce",
+        "calories": "90",
+        "price": 49,
+        "id": "2"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-HoneyBBQ?q=75",
+        "name": "Honey BBQ",
+        "calories": "40",
+        "price": 49,
+        "id": "3"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-HoneyMustard?q=75",
+        "name": "Honey Mustard",
+        "calories": "120",
+        "price": 59,
+        "id": "4"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-Ranch?q=75",
+        "name": "Classic Ranch",
+        "calories": "100",
+        "price": 69,
+        "id": "5"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-honeySauce2?q=75",
+        "name": "Honey Sauce",
+        "calories": "30",
+        "price": 49,
+        "id": "6"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-hotSauce2?q=75",
+        "name": "Hot Sauce",
+        "calories": "0",
+        "price": 99,
+        "id": "7"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-ketchup2?q=75",
+        "name": "Ketchup",
+        "calories": "30",
+        "price": 49,
+        "id": "8"
+    }
+  ]

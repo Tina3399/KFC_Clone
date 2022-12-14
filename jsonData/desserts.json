@@ -1,0 +1,16 @@
+[
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-1Cookie?q=75",
+        "name": "Chocolate Chip Cookie",
+        "calories": "120",
+        "price": 199,
+        "id": "1"
+    },
+    {
+        "image": "https://images.ctfassets.net/9tka4b3550oc/1XFzu9NKNtkE8UpD3plXJ3/c8a6893c77aaeb16c82a0e2b43e2c59c/2.jpg?q=75&w=640",
+        "name": "Chocolate Chip Cake",
+        "calories": "300",
+        "price": 599,
+        "id": "2"
+    }
+]
