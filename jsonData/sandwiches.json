@@ -1,0 +1,53 @@
+[
+  
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-sandwichandtendersmeal?q=75",
+        "name": "Touchdown Tenders & Sandwiches Meal",
+        "calories": "4700-7430",
+        "price": 699,
+        "id": "1"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-sandwichandsidesmeal?q=75",
+        "name": "sandwich Tailgate Bundle",
+        "calories": "3040-4280",
+        "price": 1499,
+        "id": "2"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-cknsndcombo?q=75",
+        "name": "KDK Chicken Sandwich Combo",
+        "calories": "690-1160",
+        "price": 999,
+        "id": "3"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-cknsndbigbox?q=75",
+        "name": "KDK Chicken Sandwich Box",
+        "calories": "830-1620",
+        "price": 799,
+        "id": "4"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-cknsndalc?q=75",
+        "name": "KDK Chicken sandwich",
+        "calories": "620-650",
+        "price": 499,
+        "id": "5"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-AlcChLtl?q=75",
+        "name": "Chicken Little",
+        "calories": "300-540",
+        "price": 499,
+        "id": "6"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-ChLtlCombo?q=75",
+        "name": "Chicken Little Combo",
+        "calories": "670-1190",
+        "price": 899,
+        "id": "7"
+    }
+    
+  ]

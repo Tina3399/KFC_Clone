@@ -1,0 +1,52 @@
+[
+  
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-FamousBowl?q=75",
+        "name": "Famous Bowl",
+        "calories": "840-1120",
+        "price": 199,
+        "id": "1"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-AlcBreast?q=75",
+        "name": "A La Carte Breast",
+        "calories": "210-530",
+        "price": 399,
+        "id": "2"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-AlcLeg?q=75",
+        "name": "A La Carte Drum",
+        "calories": "80-170",
+        "price": 399,
+        "id": "3"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-AlcThigh?q=75",
+        "name": "A La Carte Thigh",
+        "calories": "150-330",
+        "price": 299,
+        "id": "4"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-AlcWing?q=75",
+        "name": "A La Carte Wing",
+        "calories": "70-170",
+        "price": 299,
+        "id": "5"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-AlcTender2?q=75",
+        "name": "A La Carte Tender",
+        "calories": "390-530",
+        "price": 199,
+        "id": "6"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-PotPie?q=75",
+        "name": "Pot Pie",
+        "calories": "720",
+        "price": 499,
+        "id": "7"
+    }
+  ]

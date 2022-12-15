@@ -1,0 +1,67 @@
+[
+  
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-IndFries?q=75",
+        "name": "Secret Recipe Fries",
+        "calories": "230-930",
+        "price": 199,
+        "id": "1"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-IndMashGravy?q=75",
+        "name": "Mashed Potatoes and Gravy",
+        "calories": "130-590",
+        "price": 299,
+        "id": "2"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-IndMacCheese?q=75",
+        "name": "Mac & Cheese",
+        "calories": "140-540",
+        "price": 299,
+        "id": "3"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-biscuit?q=75",
+        "name": "biscuit",
+        "calories": "180",
+        "price": 99,
+        "id": "4"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-IndColeslaw?q=75",
+        "name": "Cole Slaw",
+        "calories": "170-640",
+        "price": 199,
+        "id": "5"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-IndGreenBeans?q=75",
+        "name": "Green beans",
+        "calories": "25-80",
+        "price": 99,
+        "id": "6"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-IndGravy?q=75",
+        "name": "Gravy",
+        "calories": "80-130",
+        "price": 199,
+        "id": "7"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-IndCorn?q=75",
+        "name": "Whole Kernel Corn",
+        "calories": "70-280",
+        "price": 599,
+        "id": "8"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-IndMash?q=75",
+        "name": "Mashed Potatoes (No Gravy)",
+        "calories": "110-460",
+        "price": 499,
+        "id": "9"
+    }
+  
+  ]

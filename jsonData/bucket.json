@@ -1,0 +1,96 @@
+[
+  
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-COBHolidayBucket?q=75",
+        "name": "12 pc. Meal(Variety) with 6 FREE Cookies",
+        "calories": "3450-7470",
+        "price": 1599,
+        "id": "1"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-COBHolidayBucket?q=75",
+        "name": "12 pc. Meal(Drum & Thigh) with 6 FREE Cookies",
+        "calories": "3300-6870",
+        "price": 1599,
+        "id": "2"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-COBHolidayBucket?q=75",
+        "name": "16 pc. Meal(Variety) with 6 FREE Cookies",
+        "calories": "4600-9960",
+        "price": 1999,
+        "id": "3"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-8pcBucketMealStandard?q=75",
+        "name": "8 pc. Meal",
+        "calories": "2300-4980",
+        "price": 799,
+        "id": "4"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-8pcBucketStandard?q=75",
+        "name": "8 pc. Meal(Variety) with 6 FREE Cookies",
+        "calories": "3450-7470",
+        "price": 1599,
+        "id": "5"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-8pcBucketStandard?q=75",
+        "name": "8 pc. Meal(Drum & Thigh) with 6 FREE Cookies",
+        "calories": "3300-6870",
+        "price": 1499,
+        "id": "6"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-COBHolidayBucket?q=75",
+        "name": "16 pc. Meal(Variety) with 6 FREE Cookies",
+        "calories": "4600-9960",
+        "price": 1999,
+        "id": "7"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-8pcBucketStandard?q=75",
+        "name": "Touchdown Tenders & Sandwiches Meal",
+        "calories": "4700-7430",
+        "price": 1999,
+        "id": "8"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-8pcBucketStandard?q=75",
+        "name": "Sandwich Tailgate Bundle",
+        "calories": "3040-4280",
+        "price": 1499,
+        "id": "9"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-16pcBucketMealStandard?q=75",
+        "name": "KFC Chicken Sandwich ",
+        "calories": "690-1160",
+        "price": 899,
+        "id": "10"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-16pcBucketMealStandard?q=75",
+        "name": "16 pc. Chicken + 8 Tenders Fill Up",
+        "calories": "5920-6260",
+        "price": 2199,
+        "id": "11"
+    }
+    ,
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-16pcBucketStandard?q=75",
+        "name": "16 pc. Chicken + 8 Tenders Fill Up",
+        "calories": "5920-6260",
+        "price": 2199,
+        "id": "12"
+    }
+    ,
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-16pcBucketMealStandard?q=75",
+        "name": "16 pc. Chicken + 8 Tenders Fill Up",
+        "calories": "5920-6260",
+        "price": 2199,
+        "id": "13"
+    }
+  ]

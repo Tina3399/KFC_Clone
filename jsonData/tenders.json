@@ -1,0 +1,89 @@
+[
+  
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-new12pcTendersMeal?q=75",
+        "name": "12 pc. Meal with 6 FREE Cookies",
+        "calories": "3820-6920",
+        "price": 1599,
+        "id": "1"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-new16pcTendersMeal?q=75",
+        "name": "16 pc. Tenders Meal with 6 FREE Cookies",
+        "calories": "5090-8920",
+        "price": 1999,
+        "id": "2"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-8pcTendersMeal-test?q=75",
+        "name": "8 pc. Tenders Meal",
+        "calories": "2910-4930",
+        "price": 999,
+        "id": "3"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-TendersCombo-BR?q=75",
+        "name": "3 pc. Tenders Combo",
+        "calories": "780-1340",
+        "price": 599,
+        "id": "4"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-4TendersCombo-BR?q=75",
+        "name": "4 pc. Tenders Combo",
+        "calories": "790-1470",
+        "price": 799,
+        "id": "5"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-4TendersCombo-BR?q=75",
+        "name": "5 pc. Tenders Combo",
+        "calories": "930-1610",
+        "price": 999,
+        "id": "6"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-4TendersCombo-BR?q=75",
+        "name": "5 pc. Tenders Box",
+        "calories": "1000-1840",
+        "price": 799,
+        "id": "7"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-new8pcTenders?q=75",
+        "name": "8 pc. Tenders Bucket",
+        "calories": "1630-2100",
+        "price": 999,
+        "id": "8"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-new12pcTenders?q=75",
+        "name": "12 pc. Tenders Bucket",
+        "calories": "1630-2100",
+        "price": 1799,
+        "id": "9"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-new12pcTendersMeal?q=75",
+        "name": "12 pc. Tenders Meal ",
+        "calories": "4610-6290",
+        "price": 1999,
+        "id": "10"
+    },
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-new16pcTenders?q=75",
+        "name": "16 pc. Tenders Bucket",
+        "calories": "2610-4990",
+        "price": 2199,
+        "id": "11"
+    }
+    ,
+    {
+        "image": "https://digitaleat.kfc.com/menus/image/bare/kfc-new16pcTendersMeal?q=75",
+        "name": "16 pc. Tenders Meal",
+        "calories": "2910-4930",
+        "price": 2199,
+        "id": "12"
+    }
+    
+  ]
