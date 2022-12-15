@@ -1,3 +1,6 @@
+
+
+
 #main_div{
     width: 80vw;
     font-family: Helvetica, sans-serif;
@@ -43,15 +46,10 @@
 /* floating div */
 
 #floating_div{
-   
     flex: 1;
     /* border: 2px solid palevioletred; */
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     border-radius: 25px;
-    
-    
-    
-  
 }
 
 #red_lines_floating_div{
@@ -107,4 +105,23 @@ align-items: center;}
     border-radius: 20px;
     font-size: 30px;
     cursor: pointer;
+}
+
+
+
+@media screen and (max-width:1200px) {
+    #main_product_div>div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #product_image_div{
+        width: 350px;
+    }
+   
+    #floating_div{
+        width: 80%;
+    }
+
 }

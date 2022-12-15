@@ -1,4 +1,6 @@
 
+
+
 #signup_div{
     width: 30vw;
     
@@ -28,9 +30,20 @@ ul{
     flex-direction: column;
     gap: 10px;
 }
-
+label{
+    color: teal;
+}
 input[type=checkbox]{
     margin-right: 5px;
     width: 20px;
     
+}
+
+@media screen and (max-width:1200px){
+    #signup_div{
+        width: 100%;
+    margin-top: 0px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 4px 12px;
+
+    }
 }

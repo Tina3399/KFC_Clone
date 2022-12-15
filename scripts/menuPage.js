@@ -1,3 +1,11 @@
+const loader = document.getElementById("pre_loader");
+
+window.addEventListener("load", () => {
+  setInterval(() => {
+    loader.style.display = "none";
+  }, 2000);
+});
+
 const all_data = [
   "featured",
   "bucket",
