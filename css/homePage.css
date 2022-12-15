@@ -5,6 +5,21 @@
     
 }
 
+/* pre loader */
+
+#pre_loader{
+    background:#aea282 url(/client/assets/images/loader.gif) no-repeat center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+    z-index: 1000;
+}
+
+
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -118,6 +133,7 @@ nav{
     position: fixed;
     top: 0;
     max-width: 100vw;
+    /* width: 100vw; */
     z-index: 100;
     background-color: #FFFFFF;
     /* border: 1px solid black; */
@@ -316,11 +332,19 @@ font-weight: 800;
     width: 100%;
     /* border: 1px solid black; */
     border-radius: 7px;
-
     background-color: #f8f7f5;
+    transition: 0.5s all ease-in-out;
+
+}
+
+.cards:hover img{
+    cursor: pointer;
+    transform: scale(0.9);
+
 }
 
 #featured_cards{
+    
     max-width: 100vw;
     /* padding:0 10%; */
 }
@@ -506,9 +530,10 @@ font-weight: 800;
 
 } 
 #red_lines{
-    height: 94%;
+    height: 92%;
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 
 }
 #red_lines>div{
@@ -518,7 +543,6 @@ font-weight: 800;
 
 
 }
-
 
 /* Footer */
 
@@ -595,13 +619,17 @@ width: 55%;
    
 }
 
-
+hr{
+    display: none;
+}
 
 /* Responsive */
 
 /* medium size */
 
-@media screen and (max-width:786px){
+@media screen and (max-width:960px){
+
+    /* navbar */
     
     .hamburger{
         display: block;
@@ -623,4 +651,79 @@ width: 55%;
     .hamburger.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
+
+    /* wingit bucket */
+
+    #div_1{
+        display: none;
+    }
+/* featured cards */
+    .cards>div{
+        width: 350px;
+   }
+
+   /* banner-4 */
+  
+   #banner4{
+    display: flex;
+    flex-direction: column;
+   }
+  #div-2{
+    display: none;
+  }
+
+  /* footer */
+  
+  #middle_div{
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+  }
+#middle_div p{
+    display: none;
+}
+#middle_div h5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#bottom_div{
+    flex-direction: column;
+    min-width: 99%;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+#bottom_div>div:nth-child(1){
+    width: 100%;
+    text-align: center;
+    }
+
+#bottom_div>div:nth-child(2){
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+#calorie_statement,#pepsi_statement{
+    width: 99%;
+    text-align: left;
+}
+hr{
+    width: 80%;
+    display: block;
+    background-color: rgb(72, 69, 69);
+    border: 1px solid black;
+    
+}
+#bottom_div>div:nth-child(2) i{
+    font-size: 30px;
+    border: 1px solid black;
+
+}
+    
 }

@@ -4,6 +4,20 @@
     box-sizing: border-box;
     
 }
+
+/* pre loader */
+
+#pre_loader{
+    background:#f8f7f5 url(/client/assets/images/loader2.gif) no-repeat center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+    z-index: 1000;
+}
+
 #webName a{
     text-decoration: none;
     color:#354050 ;
@@ -37,6 +51,7 @@ nav>h2{
     margin-top: 40px;
     margin-bottom: 40px;
     font-family:  "Helvetica Neue", sans-serif;
+
 }
 
 #sub_div{
@@ -76,7 +91,10 @@ form input[type=text],input[type=password]{
 form p,label{
     font-size: 20px;
 }
-
+label{
+    color: teal;
+    font-weight: 600;
+}
 span{
     color: red;
 }
@@ -95,4 +113,19 @@ form input[type=submit]{
     border: 0;
     font-size: 16px;
     font-weight: 600;
+}
+
+form input[type=submit]:hover{
+    background-color: #354050;
+    color: white;
+}
+
+
+@media screen and (max-width:786px){
+    #login_div{
+        width: 100%;
+    margin-top: 0px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 4px 12px;
+
+    }
 }

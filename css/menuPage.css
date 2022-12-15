@@ -1,9 +1,26 @@
 /* side menu bar */
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* pre loader */
+
+#pre_loader{
+    background:rgb(147, 136, 136) url(/client/assets/images/loader2.gif) no-repeat center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+    z-index: 1000;
+}
+
 #menu_page_main_div{
     margin-top: 120px;
     /* border: 1px solid red; */
@@ -115,3 +132,54 @@
     font-size: 14px;
     font-family: "Helvetica Neue", sans-serif;
 }
+
+
+@media screen and (max-width:1200px){
+ 
+
+   
+
+    #menu_page_main_div>div{
+        flex-direction: column;
+    }
+#menu_bar_red_lines{
+    display: none;
+}
+    #side_menu_bar>div{
+        position:relative;
+        flex-direction:initial;
+        overflow: scroll;
+        width: 100vw;
+        /* background-color: #e02525; */
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        position: fixed;
+        top: 125px;
+        left: 0;
+        align-items: center;
+        font-size: 14px;
+        padding: 25px;
+        background-color: white;
+        gap: 0;
+        /* border: 2px solid red; */
+        z-index: 100;
+    }
+
+    #side_menu_bar>div::-webkit-scrollbar{
+        display: none;
+    }
+    #side_menu_bar h1{
+        display: none;
+    }
+    
+    #side_menu_bar a,h3{
+        /* background-color: pink; */
+       min-width:120px;
+       
+       
+    }
+    .featured_cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+

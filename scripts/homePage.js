@@ -2,6 +2,13 @@ let slidingDiv = document.getElementById("slidingImages");
 const hamburger = document.querySelector(".hamburger");
 hamburger.addEventListener("click", clickHamburger);
 const hamburgerDiv = document.getElementById("hamburger_click");
+const loader = document.getElementById("pre_loader");
+
+window.addEventListener("load", () => {
+  setInterval(() => {
+    loader.style.display = "none";
+  }, 3000);
+});
 
 let imagesArr = [
   {
