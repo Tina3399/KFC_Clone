@@ -156,5 +156,4 @@ function logout_user() {
 //       isPresent=true;
 //     }
 //   }
-
 // }
