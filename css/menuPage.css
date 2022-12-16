@@ -11,8 +11,8 @@
 /* pre loader */
 
 #pre_loader{
-    background:rgb(147, 136, 136) url(/client/assets/images/loader2.gif) no-repeat center;
-    background-size: 20%;
+    background:rgb(255, 255, 255) url(/observant-religion-480/assets/images/loader2.gif) no-repeat center;
+    background-size: 60%;
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -88,6 +88,64 @@
 
 /* featured_items_ */
 
+.heading_feature_card_filter{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.heading_feature_card_filter>h1{
+flex: 3;
+}
+.heading_feature_card_filter>h3{
+   padding: 15px;
+    }
+#filter{
+    flex: 1;
+    /* border: 1px solid green; */
+  background-color: #e02525;
+  border: 0;
+  border-radius: 56px;
+  box-shadow: rgba(226, 113, 82, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  outline: 0;
+  padding: 16px 0px;
+  position: relative;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#filter:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 80%;
+}
+
+#filter:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+
 
 .food_cards>h1{
     font-family: Haettenschweiler, 'Arial Narrow Regular', sans-serif;
@@ -102,6 +160,7 @@
     grid-template-columns: repeat(3,1fr);
     gap: 25px;
     margin: 70px 0;
+    
     /* padding: 8% 0; */
     /* justify-content: center; */
     /* border: 2px solid palevioletred; */
@@ -118,8 +177,11 @@
 .featured_cards>div{
     display: flex;
     flex-direction: column;
-    
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     gap: 15px;
+    padding: 20px;
+    border-radius: 30px;
 }
 
 .featured_cards img{
@@ -133,6 +195,61 @@
     font-family: "Helvetica Neue", sans-serif;
 }
 
+/* cart and show icons */
+
+
+#cart_show_div{
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+}
+#cart_show_div i{
+    font-size: 20px;
+    color: rgb(96, 92, 92);
+}
+#cart_show_div i:hover{
+    color: black;
+}
+/* eyes icon */
+
+.showDiv{
+    position: relative;
+    cursor: pointer;
+    padding: 7px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.showText{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    background-color: black;
+    color:white;
+    white-space:nowrap;
+    padding: 5px 12px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0;
+    transition:opacity 0.5s ease;
+}
+.showText::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: 5px solid;
+    border-color: #000 #0000 #0000 #0000;
+}
+
+.showDiv:hover .showText{
+   top: -80%;
+   visibility: visible;
+   opacity: 1;
+}
 
 @media screen and (max-width:1200px){
  
@@ -181,5 +298,9 @@
         grid-template-columns: repeat(2,1fr);
     }
     
+    #filter {
+        padding: 16px 48px;
+      }
+
 }
 

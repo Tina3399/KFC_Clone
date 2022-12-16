@@ -5,6 +5,7 @@
         "name": "Secret Recipe Fries",
         "calories": "230-930",
         "price": 199,
+        "count":0,
         "id": "1"
     },
     {
@@ -12,6 +13,7 @@
         "name": "Mashed Potatoes and Gravy",
         "calories": "130-590",
         "price": 299,
+        "count":0,
         "id": "2"
     },
     {
@@ -19,6 +21,7 @@
         "name": "Mac & Cheese",
         "calories": "140-540",
         "price": 299,
+        "count":0,
         "id": "3"
     },
     {
@@ -26,6 +29,7 @@
         "name": "biscuit",
         "calories": "180",
         "price": 99,
+        "count":0,
         "id": "4"
     },
     {
@@ -33,6 +37,7 @@
         "name": "Cole Slaw",
         "calories": "170-640",
         "price": 199,
+        "count":0,
         "id": "5"
     },
     {
@@ -40,6 +45,7 @@
         "name": "Green beans",
         "calories": "25-80",
         "price": 99,
+        "count":0,
         "id": "6"
     },
     {
@@ -47,6 +53,7 @@
         "name": "Gravy",
         "calories": "80-130",
         "price": 199,
+        "count":0,
         "id": "7"
     },
     {
@@ -54,6 +61,7 @@
         "name": "Whole Kernel Corn",
         "calories": "70-280",
         "price": 599,
+        "count":0,
         "id": "8"
     },
     {
@@ -61,6 +69,7 @@
         "name": "Mashed Potatoes (No Gravy)",
         "calories": "110-460",
         "price": 499,
+        "count":0,
         "id": "9"
     }
   

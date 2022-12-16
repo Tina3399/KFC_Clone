@@ -4,6 +4,7 @@
         "name": "Chocolate Chip Cookie",
         "calories": "120",
         "price": 199,
+        "count":0,
         "id": "1"
     },
     {
@@ -11,6 +12,7 @@
         "name": "Chocolate Chip Cake",
         "calories": "300",
         "price": 599,
+        "count":0,
         "id": "2"
     }
 ]

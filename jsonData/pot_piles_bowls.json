@@ -5,6 +5,7 @@
         "name": "Famous Bowl",
         "calories": "840-1120",
         "price": 199,
+        "count":0,
         "id": "1"
     },
     {
@@ -12,6 +13,7 @@
         "name": "Famous Bowl Meal",
         "calories": "790-1330",
         "price": 399,
+        "count":0,
         "id": "2"
     },
     {
@@ -19,6 +21,7 @@
         "name": "Famous Bowl Combo",
         "calories": "840-1120",
         "price": 399,
+        "count":0,
         "id": "3"
     },
     {
@@ -26,6 +29,7 @@
         "name": "Pot Pie Combo",
         "calories": "840-1120",
         "price": 599,
+        "count":0,
         "id": "4"
     }
   ]

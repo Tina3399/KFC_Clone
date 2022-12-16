@@ -19,31 +19,43 @@
     <nav>
 
         <div id="child-nav">
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <div id="logo">
-                <img id="lines" src="assets/images/red_lines.jpg" alt="" />
-                <img id="logoImg" src="assets/images/webLogo3.png" alt="" />
-                <h2>
-                    <a class="webName" href="HomePage.html">Kuk Du Koo</a>
-                </h2>
-            </div>
-            <div class="nav-menu">
-                <a class="nav-item" href="menuPage.html">Menu</a>
-                <button id="nav_button"><a href="menuPage.html">Start Order</a></button>
-                <a class="nav-item" href="loginPage.html"><i class="fa-sharp fa-solid fa-user"></i></a>
-                <a class="nav-item" href="cartPage.html"><i class="fa-solid fa-suitcase"></i></a>
-            </div>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <div id="logo">
+            <img id="lines" src="assets/images/red_lines.jpg" alt="" />
+            <img id="logoImg" src="assets/images/webLogo3.png" alt="" />
+            <h2>
+              <a class="webName" href="HomePage.html">Kuk Du Koo</a>
+            </h2>
+          </div>
+          <div class="nav-menu">
+            <a class="nav-item" href="menuPage.html">Menu</a>
+            <button id="nav_button"><a href="menuPage.html">Start Order</a></button>
+            <div class="show_div" id="login_icon">
+            <a class="nav-item" href="loginPage.html"><i class="fa-sharp fa-solid fa-user"></i></a>
+            <p class="show_text">Login</p>
+          </div>
+          <div class="show_div">
+            <a class="nav-item" href="cartPage.html"><i class="fa-solid fa-suitcase"></i></a>
+            <p class="show_text">My Cart</p>
+          </div>
+          </div>
+          <h3 id="user_name_div" style="display: none;">Welcome <span style="color: teal;" id="user_name"></span></h3>
+          <div id="logout_icon" class="show_div" style="display: none;">
+          <h2><i class="fa-solid fa-right-from-bracket"></i></h2>
+          <p class="show_text">Logout</p>
+        </div>
+    
         </div>
         <div id="delivery">
-            <a href=""><i class="fa-sharp fa-solid fa-location-dot"></i>
-                <p>Start an Order for Pickup or Delivery</p>
-            </a>
+          <a href=""><i class="fa-sharp fa-solid fa-location-dot"></i>
+            <p>Start an Order for Pickup or Delivery</p>
+          </a>
         </div>
-    </nav>
+      </nav>
     <!-- main content -->
     <div id="main_product_div">
         <div>
@@ -56,10 +68,12 @@
                 </div>
                 <div id="name_qty_button">
                     <h1 id="product_name"></h1>
+                    <h2 id="product_price"></h2>
                     <h3>QUANTITY</h3>
                     <i id="decrease" class="fa-solid fa-circle-minus"></i>
                     <span id="total_quantity">0</span>
                     <i id="increase" class="fa-solid fa-circle-plus"></i>
+                    <p id="user_login_tag" style="display: none;">Please Login First!</p>
                     <button id="add_to_cart_button">Add To Cart</button>
                 </div>
             </div>

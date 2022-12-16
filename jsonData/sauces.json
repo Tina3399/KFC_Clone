@@ -5,6 +5,7 @@
         "name": "Buffalo Ranch",
         "calories": "120",
         "price": 69,
+        "count":0,
         "id": "1"
     },
     {
@@ -12,6 +13,7 @@
         "name": "KDK Sauce",
         "calories": "90",
         "price": 49,
+        "count":0,
         "id": "2"
     },
     {
@@ -19,6 +21,7 @@
         "name": "Honey BBQ",
         "calories": "40",
         "price": 49,
+        "count":0,
         "id": "3"
     },
     {
@@ -26,6 +29,7 @@
         "name": "Honey Mustard",
         "calories": "120",
         "price": 59,
+        "count":0,
         "id": "4"
     },
     {
@@ -33,6 +37,7 @@
         "name": "Classic Ranch",
         "calories": "100",
         "price": 69,
+        "count":0,
         "id": "5"
     },
     {
@@ -40,6 +45,7 @@
         "name": "Honey Sauce",
         "calories": "30",
         "price": 49,
+        "count":0,
         "id": "6"
     },
     {
@@ -47,6 +53,7 @@
         "name": "Hot Sauce",
         "calories": "0",
         "price": 99,
+        "count":0,
         "id": "7"
     },
     {
@@ -54,6 +61,7 @@
         "name": "Ketchup",
         "calories": "30",
         "price": 49,
+        "count":0,
         "id": "8"
     }
   ]

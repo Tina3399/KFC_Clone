@@ -5,18 +5,6 @@
     
 }
 
-/* pre loader */
-
-#pre_loader{
-    background:#f8f7f5 url(/client/assets/images/loader2.gif) no-repeat center;
-    background-size: 20%;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    top: 0;
-
-    z-index: 1000;
-}
 
 #webName a{
     text-decoration: none;
@@ -78,6 +66,12 @@ form{
     gap: 22px;
 }
 
+#wrong_email,#wrong_password{
+    color: red;
+    font-size: 14px;
+    text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(177, 165, 192, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+}
+
 form input[type=text],input[type=password]{
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
     border: 0;
@@ -96,7 +90,8 @@ label{
     font-weight: 600;
 }
 span{
-    color: red;
+    color: rgb(117, 3, 3);
+    text-decoration: underline;
 }
 
 form input[type=submit]{
