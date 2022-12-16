@@ -8,7 +8,8 @@
 /* pre loader */
 
 #pre_loader{
-    background:#aea282 url(/client/assets/images/loader.gif) no-repeat center;
+    background:#aea282 url(/observant-religion-480/assets/images/loader.gif) no-repeat center;
+  
     background-size: 20%;
     height: 100vh;
     width: 100%;
@@ -19,6 +20,51 @@
 }
 
 
+/* isAuth username div on navbar */
+
+#user_name_div{
+    display: grid;
+    
+}
+
+.show_div{
+    position: relative;
+    cursor: pointer;
+    padding: 7px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.show_text{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    background-color: black;
+    color:white;
+    white-space:nowrap;
+    padding: 5px 12px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0;
+    transition:opacity 0.5s ease;
+}
+.show_text::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: 5px solid;
+    border-color: #000 #0000 #0000 #0000;
+}
+
+.show_div:hover .show_text{
+    top: -60%;
+    visibility: visible;
+    opacity: 1;
+ }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -394,14 +440,18 @@ font-weight: 800;
   cursor: pointer;
   display: inline-block;
   font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
-  padding: 7px 25px;
+  padding: 10px 30px;
   text-align: center;
   text-decoration: none;
   border: 0;
   font-size: 16px;
   font-weight: 600;
+  margin-top: -8px;
    }
-
+#div_1 button>a{
+    text-decoration: none;
+    color: black;
+}
    #div_2{
        display: flex;
        /* border: 1px solid black; */

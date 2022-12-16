@@ -5,6 +5,7 @@
         "name": "Touchdown Tenders & Sandwiches Meal",
         "calories": "4700-7430",
         "price": 699,
+        "count":0,
         "id": "1"
     },
     {
@@ -12,6 +13,7 @@
         "name": "sandwich Tailgate Bundle",
         "calories": "3040-4280",
         "price": 1499,
+        "count":0,
         "id": "2"
     },
     {
@@ -19,6 +21,7 @@
         "name": "KDK Chicken Sandwich Combo",
         "calories": "690-1160",
         "price": 999,
+        "count":0,
         "id": "3"
     },
     {
@@ -26,6 +29,7 @@
         "name": "KDK Chicken Sandwich Box",
         "calories": "830-1620",
         "price": 799,
+        "count":0,
         "id": "4"
     },
     {
@@ -33,6 +37,7 @@
         "name": "KDK Chicken sandwich",
         "calories": "620-650",
         "price": 499,
+        "count":0,
         "id": "5"
     },
     {
@@ -40,6 +45,7 @@
         "name": "Chicken Little",
         "calories": "300-540",
         "price": 499,
+        "count":0,
         "id": "6"
     },
     {
@@ -47,6 +53,7 @@
         "name": "Chicken Little Combo",
         "calories": "670-1190",
         "price": 899,
+        "count":0,
         "id": "7"
     }
     

@@ -5,6 +5,7 @@
         "name": "2 pc. Drum & Thigh Combo",
         "calories": "600-1310",
         "price": 499,
+        "count":0,
         "id": "1"
     },
     {
@@ -12,6 +13,7 @@
         "name": "2 pc. Chicken Combo- Breasts and Wing",
         "calories": "530-1390",
         "price": 599,
+        "count":0,
         "id": "2"
     },
     {
@@ -19,6 +21,7 @@
         "name": "3 pc. Chicken Combo- Breasts, Thigh and Wing",
         "calories": "680-1720",
         "price": 799,
+        "count":0,
         "id": "3"
     },
     {
@@ -26,6 +29,7 @@
         "name": "3 pc. Chicken Combo-2 Breasts, 1 Wing",
         "calories": "810-2150",
         "price": 799,
+        "count":0,
         "id": "4"
     },
     {
@@ -33,6 +37,7 @@
         "name": "3 pc. Chicken Box-2 Thigh, 1 Drum",
         "calories": "700-1750",
         "price": 899,
+        "count":0,
         "id": "5"
     },
     {
@@ -40,6 +45,7 @@
         "name": "3 pc. Chicken Combo-2 Breasts, 1 Wing",
         "calories": "740-1920",
         "price": 799,
+        "count":0,
         "id": "6"
     },
     {
@@ -47,6 +53,7 @@
         "name": "3 pc. Chicken Combo-2 Thigh, 1 Drum",
         "calories": "630-1520",
         "price": 899,
+        "count":0,
         "id": "7"
     },
     {
@@ -54,6 +61,7 @@
         "name": "4 pc. Chicken Combo",
         "calories": "760-1890",
         "price": 799,
+        "count":0,
         "id": "8"
     }
   ]

@@ -1,4 +1,7 @@
+const wrong_email = document.getElementById("wrong_email");
+
 const form = document.querySelector("form");
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   const signup_data = {
@@ -9,13 +12,6 @@ form.addEventListener("submit", (e) => {
   };
 
   addUser(signup_data);
-
-  form.first_name.value = "";
-  form.last_name.value = "";
-  form.email.value = "";
-  form.password.value = "";
-
-  console.log(signup_data);
 });
 
 async function addUser(signup_data) {
@@ -34,6 +30,6 @@ async function addUser(signup_data) {
     let resp = await response.json();
     console.log(resp);
   } catch (err) {
-    console.log("err", err);
+    console.log(err);
   }
 }
