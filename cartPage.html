@@ -7,8 +7,8 @@
     <title>KDK:Cart</title>
     <link rel="stylesheet" href="css/homePage.css" />
     <link rel="stylesheet" href="css/cartPage.css">
+    
   <link rel="icon" type="image/x-icon" href="assets/images/webLogo3.png">
-
   <script src="https://kit.fontawesome.com/2a66bc2625.js" crossorigin="anonymous" ;></script>
 </head>
 <body>
@@ -17,9 +17,9 @@
     <!-- navbar -->
     <nav>
         <div id="cart_page_navbar">
-          <div >
+          <div>
             
-            <button id="cart_button">Back To Menu</button>
+            <button id="cart_button" ><a href="menuPage.html">Back To Menu</a></button>
               <h2><a class="webName" href="HomePage.html">Kuk Du Koo</a>
             </h2>
             <a class="nav-item" href="loginPage.html"><i class="fa-sharp fa-solid fa-user"></i></a>
@@ -32,7 +32,32 @@
           </a>
         </div>
       </nav>
+     <div style="display: none;" id="cart_items_div">
+      <p>You have <span style="color: #e86615;" id="total_qty"></span>in your order.</p>
+      <table>
+        <thead>
+          <tr>
 
+            <th>NAME</th>
+            <th>IMAGE</th>
+            <th>PRICE</th>
+            <th>QTY.</th>
+            <th>TOTAL</th>
+            <th>REMOVE</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        
+      </table>
+      <div id="table_footer">
+        <h2>SUBTOTAL - <span id="subtotal"></span></h2>
+        <div >
+          <button>CONTINUE SHOPPING</button>
+          <button>CHECKOUT</button>
+        </div>
+      </div>
+     </div>
      <div id="cart_bag_empty">
         <div>
         <div id="text_button_div">
@@ -142,3 +167,4 @@
   </footer>
 </body>
 </html>
+<script src="scripts/cartPage.js"></script>

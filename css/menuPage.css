@@ -103,7 +103,6 @@ flex: 3;
     }
 #filter{
     flex: 1;
-    /* border: 1px solid green; */
   background-color: #e02525;
   border: 0;
   border-radius: 56px;
@@ -115,7 +114,7 @@ flex: 3;
   font-size: 14px;
   font-weight: 700;
   outline: 0;
-  padding: 16px 0px;
+  padding: 12px 0px;
   position: relative;
   text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
   text-align: center;
@@ -125,7 +124,12 @@ flex: 3;
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-
+#filter>option{
+    background-color: rgb(116, 113, 113);
+    color: white;
+    border-radius: 56px;
+    border: 1px solid rgb(255, 252, 252);
+}
 #filter:before {
   background-color: initial;
   background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
@@ -137,7 +141,7 @@ flex: 3;
   position: absolute;
   top: 0;
   transition: all .3s;
-  width: 80%;
+  width: 60%;
 }
 
 #filter:hover {
@@ -250,7 +254,13 @@ flex: 3;
    visibility: visible;
    opacity: 1;
 }
-
+#cartCount{
+    position: absolute;
+    top:0;
+    right: 0;
+    font-size: 11px;
+    color: #e02525;
+}
 @media screen and (max-width:1200px){
  
 
