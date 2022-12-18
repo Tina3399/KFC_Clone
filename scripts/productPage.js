@@ -17,6 +17,7 @@ decrease_button.addEventListener("click", decrease_qty);
 const total_quantity = document.getElementById("total_quantity");
 total_quantity.innerText = product.count;
 const user_login_tag = document.getElementById("user_login_tag");
+const product_added_msg = document.getElementById("product_added_msg");
 const add_to_cart_button = document.getElementById("add_to_cart_button");
 
 add_to_cart_button.addEventListener("click", add_to_cart);
@@ -75,11 +76,12 @@ function add_to_cart() {
     }
     if (!isPresent) {
       cart_arr.push(product);
-    } else {
-      return;
     }
   }
-
+  if (current_user.length) {
+    product_added_msg.style.display = "block";
+  }
+  setTimeout(() => (product_added_msg.style.display = "none"), 3000);
   localStorage.setItem("cart_arr", JSON.stringify(cart_arr));
   console.log(current_user);
   console.log(product);

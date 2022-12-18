@@ -40,9 +40,8 @@
     text-decoration: none;
     border: 2px solid black;
 }
-#cart_button>a{
+a{
     text-decoration: none;
-    color: black;
 }
 #cart_button:hover{
     cursor: pointer;
@@ -154,7 +153,7 @@ table th{
 }
 #table_footer button{
    
-  background-image: linear-gradient(#f96c14, #e86615);
+  background-color: #e4002b;
   border: 0;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;

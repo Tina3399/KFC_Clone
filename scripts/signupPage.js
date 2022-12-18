@@ -12,6 +12,9 @@ form.addEventListener("submit", (e) => {
   };
 
   addUser(signup_data);
+  const signup_successful = document.getElementById("signup_successful");
+  signup_successful.style.color = "red";
+  signup_successful.innerHTML = "Signup Successful!";
 });
 
 async function addUser(signup_data) {

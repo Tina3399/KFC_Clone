@@ -11,7 +11,13 @@ if (cart_arr.length > 0) {
   cart_bag_empty.style.display = "none";
   cart_items_div.style.display = "block";
 }
-current_user[0].products.push(cart_arr);
+if (current_user[0]) {
+  show_icon.innerHTML = `<i class="fa-solid fa-right-from-bracket"></i>`;
+  show_icon.addEventListener("click", () => logout_user);
+  current_user[0].products.push(cart_arr);
+} else {
+  show_icon.innerHTML = `<i class="fa-sharp fa-solid fa-user"></i>`;
+}
 
 const tbody = document.querySelector("tbody");
 show_cart_items(cart_arr);
@@ -61,4 +67,11 @@ function remove_row(index) {
   localStorage.setItem("cart_arr", JSON.stringify(cart_arr));
   show_cart_items();
   console.log(cart_arr);
+}
+
+function logout_user() {
+  current_user[0].isAuth = false;
+  localStorage.clear("cart_arr");
+  localStorage.clear("current_user");
+  window.location.href = "loginPage.html";
 }

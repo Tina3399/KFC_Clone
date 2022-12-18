@@ -1,0 +1,18 @@
+#thank_you_div{
+    width: 99vw;
+    height: 97vh;
+    background-image: url("/observant-religion-480/assets/images/thank_you.gif");
+    /* border: 1px solid black; */
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 80px;
+    margin: auto;
+    padding-top: 13%;
+    color:#cd1919 ;
+}
+h3{
+    font-size: 50px;
+}
