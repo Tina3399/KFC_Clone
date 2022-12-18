@@ -21,7 +21,7 @@ async function fetch_user_data(login_data) {
     if (res[0].password === login_data.password) {
       res[0].isAuth = true;
       localStorage.setItem("current_user", JSON.stringify(res));
-      window.location.href = "homePage.html";
+      window.location.href = "index.html";
       console.log(res);
     } else {
       wrong_password.innerText = "Incorrect Password!";

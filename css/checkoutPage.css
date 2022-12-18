@@ -1,0 +1,150 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+/* login div */
+
+#back_button{
+    background-color: #e4002b;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: Montserrat,sans-serif;
+    font-size: .9em;
+    margin: 5px;
+    padding: 10px 25px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: absolute;
+    top: 12px;
+    left: 4%;
+}
+
+
+
+
+#red_lines{
+    display: flex;
+    gap: 5px;
+    margin-left: 50px;
+}
+.bar{
+    width: 10px;
+    background-color: #d73333;
+    /* border: 1px solid violet; */
+    height: 25px;
+    
+}
+
+
+
+form>h1{
+    color: #e4002b;
+    text-align: center;
+}
+
+
+#checkout_div{
+    
+  
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family:  "Helvetica Neue", sans-serif;
+
+    /* border: 1px solid black; */
+    height: 100vh;
+    width: 30vw;
+
+}
+
+
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    /* gap: 22px; */
+    gap: 15px;
+    padding: 30px 60px;
+}
+
+
+form input{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    border: 0;
+    outline: none;
+    width: 90%;
+    font-size: 15px;
+}
+
+form label{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 10px;
+}
+label{
+    color: teal;
+    font-weight: 600;
+}
+
+#confirm_button{
+    background-color: #e4002b;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat,sans-serif;
+  font-size: .9em;
+  margin: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  /* margin-left: 25%; */
+}
+
+#confirm_div{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:786px){
+    #checkout_div{
+        width: 100%;
+    margin-top: 0px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 4px 12px;
+
+    }
+    #back_button{
+        left: 80%;
+
+    }
+}
+
+

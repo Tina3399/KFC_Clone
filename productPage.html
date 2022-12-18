@@ -8,6 +8,7 @@
     <title>Product</title>
     <link rel="stylesheet" href="css/homePage.css" />
     <link rel="stylesheet" href="css/productPage.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="icon" type="image/x-icon" href="assets/images/webLogo3.png">
     <script src="https://kit.fontawesome.com/2a66bc2625.js" crossorigin="anonymous" ;></script>
 </head>
@@ -28,7 +29,7 @@
             <img id="lines" src="assets/images/red_lines.jpg" alt="" />
             <img id="logoImg" src="assets/images/webLogo3.png" alt="" />
             <h2>
-              <a class="webName" href="HomePage.html">Kuk Du Koo</a>
+              <a class="webName" href="index.html">Kuk Du Koo</a>
             </h2>
           </div>
           <div class="nav-menu">
@@ -74,7 +75,8 @@
                     <span id="total_quantity">0</span>
                     <i id="increase" class="fa-solid fa-circle-plus"></i>
                     <p id="user_login_tag" style="display: none;">Please Login First!</p>
-                    <button id="add_to_cart_button">Add To Cart</button>
+                    <p id="product_added_msg" style="display: none;">Product added to cart!</p>
+                    <button id="add_to_cart_button">Add To Cart</button> 
                 </div>
             </div>
         </div>
@@ -186,4 +188,5 @@
 </body>
 
 </html>
+<script src="scripts/navbar.js"></script>
 <script src="scripts/productPage.js"></script>

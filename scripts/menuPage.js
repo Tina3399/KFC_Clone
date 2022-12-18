@@ -97,7 +97,10 @@ function display_items(data) {
         add_to_cart(element, cartCount);
       });
       const cartText = document.createElement("span");
-      cartText.innerText = "Add To Cart";
+      cartText.innerText =
+        current_user.length === 0
+          ? "Please Login to add products in cart!"
+          : "Add To Cart";
       cartText.setAttribute("class", "showText");
 
       imgDiv.append(image);
@@ -140,6 +143,9 @@ function sortProducts(e) {
 }
 
 function add_to_cart(element, cartCount) {
+  if (current_user.length === 0) {
+    return;
+  }
   let isPresent = false;
   let updatedCountValue;
   for (let i = 0; i < cart_arr.length; i++) {

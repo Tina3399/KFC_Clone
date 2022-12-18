@@ -7,7 +7,7 @@
     <title>KDK:Cart</title>
     <link rel="stylesheet" href="css/homePage.css" />
     <link rel="stylesheet" href="css/cartPage.css">
-    
+    <link rel="stylesheet" href="css/navbar.css">
   <link rel="icon" type="image/x-icon" href="assets/images/webLogo3.png">
   <script src="https://kit.fontawesome.com/2a66bc2625.js" crossorigin="anonymous" ;></script>
 </head>
@@ -19,11 +19,18 @@
         <div id="cart_page_navbar">
           <div>
             
-            <button id="cart_button" ><a href="menuPage.html">Back To Menu</a></button>
-              <h2><a class="webName" href="HomePage.html">Kuk Du Koo</a>
+            <a href="menuPage.html"><button id="cart_button" >Back To Menu</button></a>
+              <h2><a class="webName" href="index.html">Kuk Du Koo</a>
             </h2>
-            <a class="nav-item" href="loginPage.html"><i class="fa-sharp fa-solid fa-user"></i></a>
             
+            <div class="show_div" id="login_icon">
+              <a id="show_icon" class="nav-item" href="loginPage.html"><i class="fa-sharp fa-solid fa-user"></i></a>
+              <p class="show_text">Login</p>
+            </div>
+            <div id="logout_icon" class="show_div" style="display: none;">
+              <h2><i class="fa-solid fa-right-from-bracket"></i></h2>
+              <p class="show_text">Logout</p>
+            </div>
         </div>
     </div>
         <div id="delivery">
@@ -53,8 +60,8 @@
       <div id="table_footer">
         <h2>SUBTOTAL - <span id="subtotal"></span></h2>
         <div >
-          <button>CONTINUE SHOPPING</button>
-          <button>CHECKOUT</button>
+         <a href="menuPage.html"><button>CONTINUE ORDERING</button></a> 
+          <a href="checkoutPage.html"><button>CHECKOUT</button></a>
         </div>
       </div>
      </div>
