@@ -9,15 +9,6 @@ let filter_data_arr;
 const current_user = JSON.parse(localStorage.getItem("current_user")) || [];
 const cart_arr = JSON.parse(localStorage.getItem("cart_arr")) || [];
 
-if (current_user.length > 0) {
-  if (current_user[0].isAuth) {
-    user_name_div.style.display = "block";
-    user_name.innerText = current_user[0].name;
-    logout_icon.style.display = "block";
-    login_icon.style.display = "none";
-  }
-}
-
 const filter = document.getElementById("filter");
 filter.addEventListener("click", sortProducts);
 
@@ -96,8 +87,14 @@ function display_items(data) {
       cartDiv.setAttribute("class", "showDiv");
       const cart = document.createElement("span");
       cart.innerHTML = '<i class="fa-solid fa-cart-shopping"></i>';
+
+      const cartCount = document.createElement("span");
+      cartCount.setAttribute("id", "cartCount");
+      const cart_value = is_prod_present_in_cart(element);
+      cartCount.innerText = cart_value.count ? cart_value.count : null;
+
       cart.addEventListener("click", () => {
-        add_to_cart(element);
+        add_to_cart(element, cartCount);
       });
       const cartText = document.createElement("span");
       cartText.innerText = "Add To Cart";
@@ -105,7 +102,7 @@ function display_items(data) {
 
       imgDiv.append(image);
       showProdDiv.append(showProd, showProdText);
-      cartDiv.append(cart, cartText);
+      cartDiv.append(cart, cartText, cartCount);
       cart_show_div.append(showProdDiv, cartDiv);
       container.append(imgDiv, name, calories, price, cart_show_div);
 
@@ -142,18 +139,30 @@ function sortProducts(e) {
   }
 }
 
-function logout_user() {
-  current_user[0].isAuth = false;
-
-  localStorage.clear("current_user");
-  location.reload();
+function add_to_cart(element, cartCount) {
+  let isPresent = false;
+  let updatedCountValue;
+  for (let i = 0; i < cart_arr.length; i++) {
+    if (cart_arr[i].id === element.id) {
+      isPresent = true;
+      cart_arr[i].count++;
+      updatedCountValue = cart_arr[i].count;
+      break;
+    }
+  }
+  if (!isPresent) {
+    cart_arr.push({ ...element, count: 1 });
+    updatedCountValue = 1;
+  }
+  cartCount.innerText = updatedCountValue;
+  localStorage.setItem("cart_arr", JSON.stringify(cart_arr));
 }
 
-// function add_to_cart(element) {
-//   let isPresent=false;
-//   for(let i=0;i<cart_arr.length;i++){
-//     if(cart_arr[i].id===element.id){
-//       isPresent=true;
-//     }
-//   }
-// }
+function is_prod_present_in_cart(element) {
+  for (let i = 0; i < cart_arr.length; i++) {
+    if (cart_arr[i].id === element.id) {
+      return cart_arr[i];
+    }
+  }
+  return {};
+}
