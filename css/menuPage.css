@@ -11,7 +11,7 @@
 /* pre loader */
 
 #pre_loader{
-    background:rgb(255, 255, 255) url(/observant-religion-480/assets/images/loader2.gif) no-repeat center;
+    background:rgb(255, 255, 255) url(/assets/images/loader2.gif) no-repeat center;
     background-size: 60%;
     height: 100vh;
     width: 100%;
