@@ -23,7 +23,7 @@ const loader = document.getElementById("pre_loader");
 window.addEventListener("load", () => {
   setTimeout(() => {
     loader.style.display = "none";
-  }, 1000);
+  }, 2000);
 });
 
 let imagesArr = [
