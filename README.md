@@ -41,6 +41,8 @@ If you have any feedback or suggestions for how to improve this KFC clone, feel 
 
 ## Landing Page
 
+
+
 ![image](./assets/images/landing_page_1.png)
 ![image](./assets/images/landing_page_2.png)
 ![image](./assets/images/landing_page_3.png)
