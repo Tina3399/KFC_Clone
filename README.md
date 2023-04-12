@@ -11,7 +11,7 @@ This is a clone of the Kentucky Fried Chicken (KFC) restaurant chain, a fast-foo
 
 ## Website Logo :
 
-![image](./frontend/images/mainLogo.png)
+![image](./assets/images/webLogo.png)
 
 # KFC Clone
 This is a clone of the KFC website, created during the Construct Week at Masai.
