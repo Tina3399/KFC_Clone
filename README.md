@@ -41,16 +41,43 @@ If you have any feedback or suggestions for how to improve this KFC clone, feel 
 
 ## Landing Page
 
+![image](./assets/images/landing_page_1.png)
+![image](./assets/images/landing_page_2.png)
+![image](./assets/images/landing_page_3.png)
+![image](./assets/images/landing_page_4.png)
+![image](./assets/images/landing_page_5.png)
+
 ## MENU PAGE
+
+![image](./assets/images/menu_page.png)
 
 ## PRODUCT PAGE
 
+![image](./assets/images/product_page.png)
+
 ## SIGNUP PAGE
+
+
+![image](./assets/images/Signup_page.png)
 
 ## LOGIN PAGE
 
+
+![image](./assets/images/login_page.png)
+
 ## CART PAGE
+
+
+![image](./assets/images/empty_cart_page.png)
+
+![image](./assets/images/cart_page.png)
 
 ## PAYMENT PAGE
 
+
+![image](./assets/images/Payment_page.png)
+
 ## THANKYOU PAGE
+
+
+![image](./assets/images/Thankyou_page.png)
